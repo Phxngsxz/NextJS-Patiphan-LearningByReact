@@ -1,6 +1,11 @@
 import React from 'react'
 import Nav from '../components/Nav'
 
+export const metadata = {
+    title: "NextJS About Page",
+    description: "This is nextjs about page",  
+    keywords: "nextjs, web development, js, react"
+  };
 
 function AboutPage() {
   return (
